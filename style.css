@@ -130,6 +130,20 @@ body{
 .navItems a:hover {
 	color: rgb(236, 69, 208);
 }
+.btn {
+	outline: none;
+	border: none;
+	width: 120px;
+	height: 35px;
+	font-size: 1rem;
+	font-weight: 400;
+	border-radius: 5px;
+	transition: all 0.7s ease;
+	background-color: rgb(236, 69, 208);
+}
+.btn:hover {
+	background-color: white;
+}
 .home-container{
     background-image: url("bg.jpg");
     background-size: cover;
